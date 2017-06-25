@@ -13,3 +13,4 @@ Plugin 'VundleVim/Vundle.vim'
 
 call vundle#end() "所有插件放在这行之上
 filetype plugin indent on
+set encoding=utf-8
