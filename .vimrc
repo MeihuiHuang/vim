@@ -9,10 +9,10 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin() "通过Vundle插件管理插件 所有插件放在这行下
 
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'vim-airline/vim-airline'
-Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown'
+Plugin 'VundleVim/Vundle.vim'    "Vundle
+Plugin 'vim-airline/vim-airline' "airline
+Plugin 'godlygeek/tabular'       "tabular
+Plugin 'plasticboy/vim-markdown' "markdown
 
 call vundle#end() "所有插件放在这行之上
 filetype plugin indent on
