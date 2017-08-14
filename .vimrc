@@ -13,6 +13,7 @@ Plugin 'VundleVim/Vundle.vim'    "Vundle
 Plugin 'vim-airline/vim-airline' "airline
 Plugin 'godlygeek/tabular'       "tabular
 Plugin 'plasticboy/vim-markdown' "markdown
+Plugin 'scrooloose/nerdtree'     "nerdtree
 
 call vundle#end() "所有插件放在这行之上
 filetype plugin indent on
