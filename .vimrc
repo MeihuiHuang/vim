@@ -1,4 +1,4 @@
-set number "设置行号
+﻿set number "设置行号
 set ruler "设置标尺
 syntax on "语法高亮
 set tabstop=4 "Tab键的宽度
@@ -9,7 +9,7 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin() "通过Vundle插件管理插件 所有插件放在这行下
 
-Plugin 'VundleVim/Vundle.vim'    "Vundle
+Plugin 'VundleVim/Vundle.vim'    "vundle
 Plugin 'vim-airline/vim-airline' "airline
 Plugin 'godlygeek/tabular'       "tabular
 Plugin 'plasticboy/vim-markdown' "markdown
