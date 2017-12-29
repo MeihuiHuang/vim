@@ -7,7 +7,7 @@ git clone https://github.com/meihuihuang/vim.git
 ```
 ## 配置
 ```
-mv ./vim/.vimrc ~/
+cp ./vim/.vimrc ~/
 vim ~/.vimrc
 :PluginInstall
 ```
