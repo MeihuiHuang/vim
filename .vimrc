@@ -1,20 +1,23 @@
-﻿set number "设置行号
-set ruler "设置标尺
-syntax on "语法高亮
-set tabstop=2 "Tab键的宽度
+set number
+set ruler
+syntax on
+set tabstop=2
 set softtabstop=2
-set shiftwidth=2 "统一缩进为2
-set nocompatible "去除VI一致性
+set shiftwidth=2
+set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin() "通过Vundle插件管理插件 所有插件放在这行下
 
-Plugin 'VundleVim/Vundle.vim'    "vundle
-Plugin 'vim-airline/vim-airline' "airline
-Plugin 'godlygeek/tabular'       "tabular
-Plugin 'plasticboy/vim-markdown' "markdown
-Plugin 'scrooloose/nerdtree'     "nerdtree
+call plug#begin('~/.vim/plugged')
 
-call vundle#end() "所有插件放在这行之上
-filetype plugin indent on
+Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'vim-airline/vim-airline'
+Plug 'plasticboy/vim-markdown'
+Plug 'stephpy/vim-yaml'
+
+call plug#end()
+
 set encoding=utf-8
+set fileencoding=utf-8
+set nobackup
+set nowritebackup
+filetype plugin indent on
