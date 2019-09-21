@@ -1,7 +1,7 @@
 # Vim
 Vim Configuration
 
-使用[vim-plug](https://github.com/junegunn/vim-plug)管理插件，所以需要先安装 vim-plug
+使用 [vim-plug](https://github.com/junegunn/vim-plug) 管理插件，所以需要先安装 vim-plug
 
 ## 配置之前
 ```
