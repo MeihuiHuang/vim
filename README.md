@@ -6,11 +6,11 @@ Vim Configuration
 ## 配置之前
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-git clone https://github.com/refifth/vim.git
+git clone https://github.com/omuumo/vimrc.git
 ```
 ## 配置
 ```
-cp ./vim/.vimrc ~/
+cp ./vimrc/.vimrc ~/
 vim ~/.vimrc
 :PlugInstall
 ```
