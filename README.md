@@ -12,5 +12,5 @@ git clone https://github.com/refifth/vim.git
 ```
 cp ./vim/.vimrc ~/
 vim ~/.vimrc
-:PluginInstall
+:PlugInstall
 ```
